@@ -50,6 +50,10 @@ git clone https://github.com/Garanash/testcase-for-Hitalent
 ```bash
 sudo apt install python3 -y
 ```
+или
+```bash
+sudo apt install python3.10 -venv
+```
 
 Для запуска приложения запустите командную строку/терминал  
 перейдите в папку проекта и выполните следующие команды:
@@ -58,6 +62,7 @@ sudo apt install python3 -y
 cd testcase-for-Hitalent
 python -m venv venv
 source venv/bin/activate
+pip install -r requirements.txt
 python main.py
 ```
 
