@@ -66,5 +66,5 @@ python main.py
 Для запуска тестрирования базового функционала выполните следующий код:
 
 ```bash
-python tests/tests.py
+python -m unittest tests/tests.py
 ```

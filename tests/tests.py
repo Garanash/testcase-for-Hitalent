@@ -47,3 +47,6 @@ testResult = unittest.TextTestRunner(verbosity=2).run(suite)
 
 for test in testResult.failures + testResult.errors:
     logging.error("FAIL: %s" % test[0])
+
+if __name__ == '__main__':
+    unittest.main()
