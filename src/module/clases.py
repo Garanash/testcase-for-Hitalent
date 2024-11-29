@@ -2,6 +2,9 @@ import json
 
 
 class Task:
+    """
+    Класс задачи
+    """
     _id_key = 1
 
     def __init__(self, id=None, title=None, discription=None, category=None, due_date=None, priority=None,
@@ -24,6 +27,10 @@ class Task:
 
 
 class TaskManager:
+    """
+    Класс менеджера задач
+    """
+
     def __init__(self):
         self.task_list = []
 

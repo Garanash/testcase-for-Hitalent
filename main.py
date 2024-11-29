@@ -3,7 +3,10 @@ import os
 from src.module.render_tables import *
 
 
-def main():
+def main() -> None:
+    """
+    Основная функция программы в бесконечном цикле считывает команды пользователя
+    """
     mngr = TaskManager()
     render_start_table()
     choice = input('Введите номер команды которую вы хотите выполнить или нажмите q+enter: ')
